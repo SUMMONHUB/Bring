@@ -1,0 +1,93 @@
+ห้องสมุดท้องถิ่น = loadstring (เกม: HttpGet ("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("SUMMON HUB | BLOXFRUITS", "DarkTheme")
+
+แท็บในเครื่อง = หน้าต่าง:แท็บใหม่("หลัก")
+
+ส่วนท้องถิ่น = แท็บ:ส่วนใหม่ ("BringFarm")
+
+ส่วน:NewToggle("นำม็อบ", "?", ฟังก์ชัน(ก)
+
+Local Fast = ต้องการ (เกม: GetService ("ผู้เล่น") LocalPlayer.PlayerScripts.CombatFramework)
+
+CameraShaker ในพื้นที่ = ต้องการ (เกม: GetService ("ผู้เล่น") LocalPlayer.PlayerScripts.CombatFramework.CameraShaker)
+
+_G.Fastattack = ก
+
+เกม:GetService("RunService").RenderStepped:Connect(function()
+
+    pcall(ฟังก์ชัน()
+
+        ถ้า _G.Fastattack แล้ว
+
+Fast.activeController.timeToNextAttack = 0
+
+Fast.activeController.hitboxMagnitude = 50
+
+เกม:GetService'VirtualUser':CaptureController()
+
+เกม:GetService'VirtualUser':Button1Down(Vector2.new(686, 352))
+
+CameraShaker.CameraShakeInstance.CameraShakeState = {FadingIn = 3, FadingOut = 2, Sustained = 0, Inactive = 1}
+
+จบ
+
+จบ)
+
+จบ)
+
+-- นำม็อบ
+
+_G.bringmob = ก
+
+ขณะที่ _G.bringmob รอ ()
+
+    pcall(ฟังก์ชัน()
+
+สำหรับ i,v in pair(game:GetService("Workspace").Enemies:Get Children()) do
+
+สำหรับ x,y in pair(game:GetService("Workspace").Enemies:Get Children()) do
+
+ถ้า v.Name == "โจร [Lv. 5]" แล้ว
+
+    ถ้า y.Name == "Bandit [Lv. 5]" แล้ว
+
+   v.HumanoidRootPart.CFrame = y.HumanoidRootPart.CFrame
+
+   v.HumanoidRootPart.Size = Vector3.new(60,60,60)
+
+   y.HumanoidRootPart.Size = Vector3.new(60,60,60)
+
+   v.HumanoidRootPart.Transparency = 1
+
+   v.HumanoidRootPart.CanCollide = เท็จ
+
+   y.HumanoidRootPart.CanCollide = เท็จ
+
+   v.Humanoid.WalkSpeed = 0
+
+   y.Humanoid.WalkSpeed = 0
+
+   v.ฮิวแมนนอยด์ JumpPower = 0
+
+   y.Humanoid.JumpPower = 0
+
+   หากซ่อนทรัพย์สินแล้ว
+
+     sethiddenproperty (game.Players.LocalPlayer, "SimulationRadius", math.huge)
+
+จบ
+
+จบ
+
+จบ
+
+จบ
+
+จบ
+
+จบ)
+
+จบ
+
+จบ)...
